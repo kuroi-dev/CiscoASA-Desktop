@@ -1,0 +1,125 @@
+# ================================
+# PYTHON CACHE & COMPILADOS
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ================================
+# APLICACIÓN DESKTOP IA CHATBOX
+# ================================
+# Logs de la aplicación
+desktop_app.log
+*.log
+
+# Archivos de configuración local
+config.local.*
+settings.local.*
+
+# Cache de respuestas IA
+.ai_cache/
+response_cache/
+
+# Archivos temporales de la aplicación
+.temp/
+temp/
+*.tmp
+
+# ================================
+# TESTING & ENTRENAMIENTO (EXCLUIDOS)
+# ================================
+# Archivos de testing
+test-*.py
+*test*.py
+tests/
+testing/
+
+# Entrenamiento y procesamiento
+training-models.py
+*training*.py
+ai-document-trainer/
+
+# Documentos y datasets
+documents/
+*.pdf
+data/
+datasets/
+
+# Base de conocimiento generada
+*knowledge_base*.json
+cisco_knowledge_base.json
+
+# Archivos de ejemplo y documentación técnica
+ejemplos-*.md
+SISTEMA-*.md
+
+# ================================
+# ENTORNO VIRTUAL
+# ================================
+env-consulting/
+venv/
+ENV/
+.venv/
+
+# ================================
+# SISTEMA OPERATIVO
+# ================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# ================================
+# IDE & EDITORES
+# ================================
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+*.swp
+*.swo
+*~
+
+# ================================
+# AUTENTICACIÓN & SEGURIDAD
+# ================================
+# Archivos de credenciales (solo para la app)
+.credentials
+*.key
+*.pem
+auth_tokens.json

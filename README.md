@@ -69,6 +69,8 @@ configurar vpn
 
 ---
 
-## Autor
+## Contacto
 
-David Riquelme
+David Riquelme  
+Chile  
+david.riquelme.sb@gmail.com  
